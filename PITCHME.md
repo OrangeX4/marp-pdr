@@ -119,7 +119,7 @@ $$
 
 ###
 
-![bg fit](images/example.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/example.png)
 
 ### 2. 最近邻插值对齐数据
 
@@ -181,7 +181,7 @@ print(test_case.a_mag)
 
 ###
 
-![bg fit](images/2022-12-01-20-00-32.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/2022-12-01-20-00-32.png)
 
 ###
 
@@ -202,7 +202,7 @@ filtered_a = filter(10,new_test_case.a_mag)
 
 ###
 
-![bg fit](images/2022-12-01-20-25-35.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/2022-12-01-20-25-35.png)
 
 ###
 
@@ -214,7 +214,7 @@ filtered_a = filter(10,new_test_case.a_mag)
 
 ###
 
-![bg fit](images/2022-12-01-21-04-19.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/2022-12-01-21-04-19.png)
 
 ### 2. 步幅估计
 
@@ -257,7 +257,7 @@ $$
 
 ### 1. 低通滤波过滤手机自身振荡
 
-![](images/2022-12-01-18-58-24.png)
+![](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/2022-12-01-18-58-24.png)
 
 人的行走会引起振荡，导致了手机的摇摆。这也会引起手机坐标轴发生变化，进而导致测出来的磁力和加速度数据在 xyz 三个轴上不断地振荡变化。
 
@@ -278,11 +278,11 @@ m_z = signal.filtfilt(b, a, tc.m_z)
 
 ###
 
-![bg fit](images/2022-12-01-18-50-15.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/2022-12-01-18-50-15.png)
 
 ###
 
-![bg fit](images/2022-12-01-18-50-28.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/2022-12-01-18-50-28.png)
 
 ### 低通滤波的好处
 
@@ -296,7 +296,7 @@ m_z = signal.filtfilt(b, a, tc.m_z)
 
 ###
 
-![](images/lowpass.png)
+![](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/lowpass.png)
 
 手机经过低通滤波后不再振荡，可以认为相对于人来说位置和方向是固定的。
 
@@ -311,7 +311,7 @@ m_z = signal.filtfilt(b, a, tc.m_z)
 
 ###
 
-![bg fit](images/2022-12-01-21-04-40.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/2022-12-01-21-04-40.png)
 
 ###
 
@@ -401,7 +401,7 @@ direction0 = scipy.optimize.minimize(error_fn, 0).x[0]
 
 ###
 
-![bg fit](images/2022-12-01-21-20-00.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/2022-12-01-21-20-00.png)
 
 
 ## 六、性能测试
@@ -416,7 +416,7 @@ direction0 = scipy.optimize.minimize(error_fn, 0).x[0]
 
 ###
 
-![bg fit](images/test_case0.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/test_case0.png)
 
 ### 在测试数据集上的运行情况
 
@@ -438,7 +438,7 @@ direction0 = scipy.optimize.minimize(error_fn, 0).x[0]
 
 ###
 
-![bg fit](images/walk.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/walk.png)
 
 ###
 
@@ -452,7 +452,7 @@ direction0 = scipy.optimize.minimize(error_fn, 0).x[0]
 
 ###
 
-![bg fit](images/ride.png)
+![bg fit](https://picgo-1258602555.cos.ap-nanjing.myqcloud.com/pdr/ride.png)
 
 
 ### 小组分工
